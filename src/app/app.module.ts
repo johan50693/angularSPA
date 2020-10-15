@@ -10,6 +10,7 @@ import { HeroesComponent } from './components/heroes/heroes.component';
 import { HeroeComponent } from './components/heroe/heroe.component';
 import { FormsModule } from "@angular/forms";
 import { BuscadorComponent } from './components/buscador/buscador.component';
+import { HeroeTarjetaComponent } from './components/heroe-tarjeta/heroe-tarjeta.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,7 +19,8 @@ import { BuscadorComponent } from './components/buscador/buscador.component';
     AboutComponent,
     HeroesComponent,
     HeroeComponent,
-    BuscadorComponent
+    BuscadorComponent,
+    HeroeTarjetaComponent
   ],
   imports: [
     BrowserModule,
